@@ -14,7 +14,7 @@ import static org.hamcrest.core.Is.is;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@AutoConfigureStubRunner(ids = {"net.tjololo.openpandora:keres:*:stubs:8080"}, workOffline = true)
+@AutoConfigureStubRunner(ids = {"net.tjololo.openpandora:keres:0.1-SNAPSHOT:stubs:8686"}, workOffline = true)
 public class KeresServiceTest {
     @Test
     public void dummyTest() throws Exception {
